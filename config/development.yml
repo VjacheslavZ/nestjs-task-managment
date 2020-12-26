@@ -1,0 +1,10 @@
+db:
+  host: 'localhost'
+  username: 'postgres'
+  password: 'zxcv1234'
+  database: 'taskmanagment'
+  synchronize: 'true'
+
+jwt:
+  secret: 'sum41'
+
