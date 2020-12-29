@@ -125,7 +125,7 @@ describe('TasksService', () => {
       );
       expect(tasksService.getTaskById).toHaveBeenCalled();
       expect(save).toHaveBeenCalled();
-      expect(result.status).toEqual(TaskStatus.DONE )
+      expect(result.status).toEqual(TaskStatus.DONE);
     });
   });
 });
